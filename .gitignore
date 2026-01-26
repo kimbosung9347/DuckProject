@@ -1,0 +1,47 @@
+# ===============================
+# Unity - Scripts Only
+# ===============================
+
+# Unity generated
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild*/
+[Ll]ogs/
+UserSettings/
+UIElementsSchema/
+
+# Unity project config (code-only repo에서는 불필요)
+Packages/
+ProjectSettings/
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.user
+*.vsconfig
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ===============================
+# Assets: ONLY .cs
+# ===============================
+
+# Assets 전부 무시
+Assets/*
+
+# Scripts 폴더의 C#만 허용
+!Assets/Scripts/
+!Assets/Scripts/**/*.cs
+
+# meta 전부 제외
+*.meta
+
+# temp / backup files
+*.TMP
+*~
