@@ -1,7 +1,5 @@
 # Unity 프로젝트 – Escape From DuckCov 모작
 
-**Unity**로 진행한 프로젝트로 **"Escape From DuckCov"**를 모작했습니다.
-
 ---
 
 - **Editor Version**: `Unity 6000.2.9f1`
